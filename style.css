@@ -5,6 +5,14 @@
     vertical-align: baseline;
 }
 
+header, footer, .box{
+    width: 450px;
+}
+
+header, button{
+    background-color: #4994F0
+}
+
 body {
     background-color: #262C2B;
     color: #FFF;
@@ -16,16 +24,13 @@ header {
     border-radius: 5px;
     text-align: center;
     margin: 5% auto auto auto;
-    width: 450px;
     padding: 25px 50px;
     display: table;
-    background-color: #4994F0;
 }
 
 .box {
     border-radius: 3px;
     margin: 3% auto auto auto;
-    width: 450px;
     padding: 40px 50px;
     display: table;
     background-color: #737887;
@@ -41,7 +46,6 @@ button {
     margin: 3% auto auto auto;
     padding: 15px 40px;
     display: block;
-    background-color: #4994F0;
     color: #FFF;
     font-size: 12pt;
     -webkit-transition-duration: 0.2s;
@@ -67,7 +71,6 @@ input {
 
 footer {
     color: #FFF;
-    width: 450px;
     text-align: right;
     display: block;
     margin: 15px auto 30px auto;
